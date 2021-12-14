@@ -22,8 +22,8 @@ class SplashScreen extends Component {
         <StatusBar translucent backgroundColor='rgba(0,0,0,0)' />
         <ImageBackground
           style={{ flex: 1 }}
-          source={require('../assets/images/bg.jpg')}
-          resizeMode='cover'
+          source={require('../assets/images/bg.png')}
+          resizeMode='contain'
         >
           <LinearGradient
             start={{ x: 0, y: 1 }}
@@ -31,7 +31,6 @@ class SplashScreen extends Component {
             colors={['black', 'rgba(0,0.10,0,0.70)', 'rgba(0,0,0,0.0)']}
             style={styles.pageStyle}
           >
-            <Text style={{ ...Fonts.whiteColor48Medium }}>TrainerAid</Text>
             <CircleFade
               size={56}
               color={Colors.whiteColor}
