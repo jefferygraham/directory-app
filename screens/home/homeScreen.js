@@ -278,28 +278,6 @@ class HomeScreen extends Component {
         <TouchableOpacity
           activeOpacity={0.9}
           onPress={() => {
-            this.props.navigation.push('MyAddresses');
-          }}
-          style={{ ...styles.drawerItemStyle }}
-        >
-          <MaterialIcons
-            name='location-on'
-            size={24}
-            color={Colors.blackColor}
-          />
-          <Text
-            style={{
-              ...Fonts.blackColor14Regular,
-              marginLeft: Sizes.fixPadding * 2.0,
-            }}
-          >
-            My Address
-          </Text>
-        </TouchableOpacity>
-
-        <TouchableOpacity
-          activeOpacity={0.9}
-          onPress={() => {
             this.props.navigation.push('ContactUs');
           }}
           style={{ ...styles.drawerItemStyle }}

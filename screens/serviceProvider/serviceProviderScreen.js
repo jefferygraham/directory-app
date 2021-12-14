@@ -282,14 +282,14 @@ class ServiceProviderScreen extends Component {
           <MapView
             style={{ height: 191 }}
             initialRegion={{
-              latitude: 37.33233141,
-              longitude: -122.0312186,
+              latitude: 38.900497,
+              longitude: -77.007507,
               latitudeDelta: 0.1,
               longitudeDelta: 0.1,
             }}
           >
             <Marker
-              coordinate={{ latitude: 37.33233141, longitude: -122.0312186 }}
+              coordinate={{ latitude: 38.9078894, longitude: -76.9983093 }}
             >
               <Image
                 source={require('../../assets/images/custom_marker.png')}

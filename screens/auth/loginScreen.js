@@ -121,7 +121,7 @@ class LoginScreen extends Component {
   phoneNumberTextField() {
     return (
       <IntlPhoneInput
-        defaultCountry='IN'
+        defaultCountry='US'
         onChangeText={({ phoneNumber }) =>
           this.setState({ phoneNumber: phoneNumber })
         }
