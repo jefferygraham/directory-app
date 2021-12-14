@@ -201,7 +201,7 @@ class HomeScreen extends Component {
               marginBottom: Sizes.fixPadding - 5.0,
             }}
           >
-            Ellison Perry
+            Jeff Graham
           </Text>
           <TouchableOpacity
             activeOpacity={0.9}
@@ -254,28 +254,6 @@ class HomeScreen extends Component {
             }}
           >
             My Bookings
-          </Text>
-        </TouchableOpacity>
-
-        <TouchableOpacity
-          activeOpacity={0.9}
-          onPress={() => {
-            this.props.navigation.push('MyCars');
-          }}
-          style={{ ...styles.drawerItemStyle }}
-        >
-          <MaterialIcons
-            name='directions-car'
-            size={24}
-            color={Colors.blackColor}
-          />
-          <Text
-            style={{
-              ...Fonts.blackColor14Regular,
-              marginLeft: Sizes.fixPadding * 2.0,
-            }}
-          >
-            MyCars
           </Text>
         </TouchableOpacity>
 

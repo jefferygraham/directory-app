@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "RN CarClean",
-    "slug": "rn-CarClean",
+    "name": "MyTrainerAid",
+    "slug": "my-trainer-aid",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,9 +13,7 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "bundleIdentifier": "com.render.rncarclean",
       "buildNumber": "1.0.0",
